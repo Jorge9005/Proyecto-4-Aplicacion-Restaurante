@@ -16,9 +16,29 @@
   background-image: url(../src/assets/img/wallpaper-burger.jpg);
   background-size: cover;
   opacity: 90%;
-  background-color: black;
 }
 
 .btn-submit{
   background-color: black;
+}
+
+.wrapper-footer{
+  background-color: black;
+}
+
+.icon{
+  height: 50px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 420px){
+  .wrapper-footer{
+    background-color: black;
+    }
+
+    .wrapper-icons{
+      display: flex;
+      justify-content: center;
+    }
+
 }

@@ -60,8 +60,8 @@ function Reservaciones() {
     }
 
     return (
-        <div className="wrapper-reservaciones d-flex flex-row m-3">
-            <form onSubmit={guardar} className="w-50 m-2">
+        <div className="wrapper-reservaciones d-lg-flex align-items-center gap-2 p-3">
+            <form onSubmit={guardar} className="wrapper-form col-lg-6 col-12">
                 <h2 className="text-center">¡Haz tu reservación!</h2>
                 <div className="mb-3">
                     <label className="form-label">Nombre de quien reserva</label>
@@ -80,7 +80,7 @@ function Reservaciones() {
                 </div>
             </form>
 
-            <div className="w-50 m-2">
+            <div className="wrapper-table col-lg-6 col-12 table-responsive">
                 <h2 className="mt-2 text-center">Tabla de Reservaciones</h2>
                 <table className="table table-bordered table-striped text-center">
                     <thead>
@@ -91,7 +91,7 @@ function Reservaciones() {
                             <th>Fecha</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody className="text-bg-light">
                         {
                             datosTabla.map((renglon) => {
                                 return (
