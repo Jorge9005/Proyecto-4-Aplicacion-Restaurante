@@ -1,6 +1,6 @@
 .nav-class{
   padding: 0.2rem 0;
-  background-color: antiquewhite;
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10,4 +10,15 @@
 
 .nav-img{
   height: 2.5rem;
+}
+
+.wrapper-reservaciones{
+  background-image: url(../src/assets/img/wallpaper-burger.jpg);
+  background-size: cover;
+  opacity: 90%;
+  background-color: black;
+}
+
+.btn-submit{
+  background-color: black;
 }
